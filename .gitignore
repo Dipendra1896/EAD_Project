@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Build outputs
+dist/
+build/
+
+# Trash folder (just in case)
+*.swp
