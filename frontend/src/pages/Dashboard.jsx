@@ -31,7 +31,7 @@ export default function Dashboard() {
       <Toaster position="top-right" />
       <h1>Expense Tracker</h1>
       {/* Show total expenses */}
-      <p className ="total"><strong>Total:</strong> ${total}</p>
+      <p className ="total"><strong>Total:</strong> NRs.{total}</p>
       {/* Form to add expense */}
       <ExpenseForm onAdd={addExpense} />
       {/* List of expenses */}

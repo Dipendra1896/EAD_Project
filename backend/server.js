@@ -1,12 +1,12 @@
-// File: backend/server.js
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config(); // Load environment variables from .env
+require('dotenv').config(); 
 
 const app = express();
-app.use(cors()); // Enable Cross-Origin Resource Sharing
-app.use(express.json()); // Parse JSON request bodies
+app.use(cors()); 
+app.use(express.json()); 
 
 // Connect to MongoDB with URI from .env file
 mongoose.connect(process.env.MONGO_URI)

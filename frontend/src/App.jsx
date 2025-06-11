@@ -1,4 +1,4 @@
-// Folder: frontend/src/App.jsx
+
 import './App.css';
 import Dashboard from './pages/Dashboard';
 
